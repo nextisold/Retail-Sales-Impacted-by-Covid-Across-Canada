@@ -1,0 +1,387 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+p{
+    color:#E2E8F0;
+}
+
+body{
+    background:#0F172A;
+    color:#F8FAFC;
+    font-family:'Segoe UI',sans-serif;
+    line-height:1.7;
+}
+
+
+h2{
+    color:#F8FAFC;
+} 
+
+/* HERO */
+
+.hero-section{
+    text-align:center;
+    padding:80px 20px 40px;
+}
+
+.hero-section h1{
+    font-size:4rem;
+    margin-bottom:25px;
+}
+
+.hero-section p{
+    max-width:1000px;
+    margin:auto;
+    color:#CBD5E1;
+    font-size:1.15rem;
+}
+
+/* NAVBAR */
+
+.Navbar{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-bottom:50px;
+}
+
+
+/* GENERAL SECTIONS */
+
+.analysis-section,
+.highlight-section,
+.conclusion-section,
+.summary-section,
+#references{
+    width:90%;
+    max-width:1400px;
+    margin:80px auto;
+}
+
+/* H2 DESIGN */
+
+h2{
+    background:#1E293B;
+    border-left:8px solid #38BDF8;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:35px;
+}
+
+/* KEY FINDINGS */
+
+.key-findings-section{
+    width:95%;
+    margin:auto;
+}
+
+.stat-container{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.stat-card{
+    background:#1E293B;
+
+    width:350px;
+
+    min-height:420px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    border-top:5px solid #38BDF8;
+
+    transition:0.3s;
+}
+
+
+.stat-card p:nth-of-type(1){
+    font-size:1.4rem;
+    margin-bottom:20px;
+}
+
+.stat-card p:nth-of-type(2){
+    font-size:3rem;
+    font-weight:bold;
+    color:#38BDF8;
+    margin-bottom:20px;
+}
+
+.stat-card span{
+    color:#CBD5E1;
+}
+
+/* CHARTS */
+
+.chart-container{
+    text-align:center;
+    margin:35px 0;
+}
+
+.chart-container img{
+    width:90%;
+    max-width:1000px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.35);
+}
+
+
+/* TABLES */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:25px;
+}
+
+thead{
+    background:#38BDF8;
+}
+
+th{
+    padding:18px;
+    color:white;
+}
+
+td{
+    text-align:center;
+    padding:18px;
+    border-bottom:1px solid #334155;
+}
+
+td:first-child{
+    text-align:left;
+}
+
+tr:hover{
+    background:#1E293B;
+}
+
+.growth-high{
+    color:#22C55E;
+    font-weight:bold;
+}
+
+.growth-medium{
+    color:#86EFAC;
+    font-weight:bold;
+}
+
+/* PROVINCE TABLE */
+
+.table-province-section{
+    overflow-x:auto;
+}
+
+/* CANADA TABLE */
+
+.table-country-section{
+    margin-top:40px;
+}
+
+/* REAL GROWTH SECTION */
+
+.highlight-section{
+    background:#111827;
+    padding:40px;
+    border-radius:20px;
+    border:3px solid #38BDF8;
+    box-shadow:0 0 20px rgba(56,189,248,.35);
+}
+
+/* PROJECT SUMMARY */
+
+ol{
+    margin-top:25px;
+    margin-bottom:25px;
+
+    margin-left:40px;
+}
+
+ol li{
+    margin-bottom:20px;
+}
+
+.summary-section ul{
+    background:#1E293B;
+
+    padding:35px;
+
+    border-radius:15px;
+}
+
+.summary-section li{
+    margin-bottom:15px;
+}
+
+/* REFERENCES */
+
+#references{
+    background:#1E293B;
+
+    padding:30px;
+
+    border-radius:15px;
+}
+
+/* FOOTER */
+
+.footer-section{
+    background:#020617;
+    text-align:center;
+    padding:60px 20px;
+    margin-top:100px;
+    border-top:1px solid #334155;
+}
+
+.footer-section a{
+    color:#38BDF8;
+}
+
+
+
+.conclusion-section{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:50px;
+
+    background:#1E293B;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    margin:100px auto;
+
+    width:90%;
+}
+
+
+.Navbar a{
+    text-decoration:none;
+
+    color:white;
+
+    background:#1E293B;
+
+    padding:12px 25px;
+
+    border-radius:50px;
+
+    border:2px solid #38BDF8;
+
+    transition:0.3s;
+}
+
+.Navbar a:hover{
+    background:#38BDF8;
+
+    color:#0F172A;
+
+    transform:translateY(-3px);
+}
+
+
+.chart-container img{
+    transition:0.3s;
+}
+
+.chart-container img:hover{
+    transform:scale(1.02);
+}
+
+.insight-box{
+    background:#1E293B;
+    border-left:8px solid #22C55E;
+    padding:25px;
+    border-radius:15px;
+    width:90%;
+    margin:30px auto;
+    transition:0.3s;
+}
+
+.insight-box:hover{
+    transform:translateY(-5px);
+}
+
+.insight-box{
+    transition:0.3s;
+}
+
+ul{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:50px;
+}
+
+li{
+    margin-bottom:15px;
+}
+
+tr:nth-child(even){
+    background:#111827;
+}
+
+.stat-card{
+    transition:0.3s;
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.35);
+}
+
+h3{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.back-to-top{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:60px;
+
+    height:60px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#38BDF8;
+
+    color:black;
+
+    text-decoration:none;
+
+    font-size:2rem;
+}
+
+

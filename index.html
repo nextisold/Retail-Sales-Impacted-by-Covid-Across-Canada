@@ -1,0 +1,363 @@
+<!DOCTYPE html> 
+<html> 
+  <head>
+    <title>How Covid-19 Reshaped Retail Spending Across Canada </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body> 
+    <div id="Intro" class="hero-section"> 
+        <h1>Examination of Retail Sales Impacted by COVID-19 Across Canada</h1>
+        <p> Using official data from Statistics Canada, this SQL-driven analytics project explores how the COVID-19 pandemic reshaped retail spending across Canada. Through provincial comparisons, sales trend analysis, inflation tracking, and recovery rankings, the project examines both the immediate disruptions caused by the pandemic and the long-term economic recovery that followed.
+        All data analyzed ranges from <strong>January of 2019</strong> to <strong>December of 2022</strong>. </p>
+        <br>
+    </div>
+
+    <div class="Navbar"> 
+    <a href="https://github.com/Syed-M-Omar">GitHub</a>
+    <a href="https://www.linkedin.com/in/syed-omar">LinkedIn</a>
+    </div> 
+
+    <div class="key-findings-section">
+        <h2>Key Findings</h2>
+
+
+    <div class="stat-container">
+        <div class="stat-card">
+        <p> <strong>Retail Sales Growth</strong> </p>
+        <p>+19.1%</p>
+        <span>Post-pandemic Canadian retail sales increased by 19.1% compared to pre-pandemic levels, which is an indicator of a strong recovery and continued consumer spending across the country.</span>
+     </div>
+     <div class="stat-card">
+        <p> <strong> Inflation Growth</strong> </p>
+        <p>+11.1%</p>
+        <span>Canada's overall Consumer Price Index (CPI) increased by 11.1% over the same period, reflecting widespread price increases experienced by households and businesses.</span>
+     </div>
+     <div class="stat-card">
+        <p> <strong>Real Retail Growth</strong> </p>
+        <p>+7.2%</p>
+        <span>After adjusting for inflation, Canadian retail sales still grew by 7.2%, suggesting that economic recovery was driven by a growth in consumer spending rather than rising prices alone.</span>
+        </div>
+
+     </div>
+    </div>
+    <br>
+
+<div class="ontario-content"> 
+    <div id="ontario" class="analysis-section"> 
+    <h2> Ontario: Progress Before, During, & After the Pandemic</h2>
+    <p>Ontario was selected as a case study to illustrate the immediate effects of COVID-19 on retail activity. Prior to the pandemic, monthly retail sales remained relatively stable at approximately $19 million per month. However, the introduction of lockdowns and public health restrictions caused a sudden decline in spending before a gradual recovery and eventual expansion beyond pre-pandemic levels.</p>
+    <p> Ontario retail sales fell from approximately $19.7 million in February 2020 to $12.6 million in April 2020, representing a decline of roughly 36%. Despite this disruption, sales recovered rapidly and reached a post-pandemic peak of approximately $24.1 million by June 2022.</p>
+    <div class="chart-container">
+    <img src="img/OntarioSales.png" width="600px" alt="Ontario Retail Sales Trend" class="ontario-chart">
+   </div>
+    </div>
+</div>
+
+
+    <div id="recovery" class="analysis-section">
+    <h2> Provincial Recovery Rankings - Ontario</h2>
+    <p>While Ontario provides a useful case study, the effects of the pandemic varied considerably across Canada. By comparing average retail sales before and after COVID-19, provinces can be ranked according to the strength of their recovery.</p>
+    <div class="chart-container"> 
+    <img src="img/horizontalbarchart.png" width ="600px" alt="Provincial Recovery Rankings">
+   </div>
+</div>
+
+
+    <div class="insight-box"> 
+     <p><strong> Key Insight</strong> </p>
+     <p> Retail recovery was not uniform across Canada. Prince Edward Island, Quebec, and Saskatchewan recorded the strongest post-pandemic growth, with retail sales increasing by:  
+     </p> 
+     <ul>
+            <li>28.8% for Prince Edward Island</li>
+            <li>24.2% for Quebec</li>
+            <li>23.2% for Saskatchewan</li>
+        </ul>
+        <p> In contrast, Ontario ranked 10th overall despite experiencing substantial growth of 17.0%, demonstrating that several provinces recovered more rapidly than Canada's largest retail market.</p>
+    </div>
+
+
+<div id="hardest-hit" class="analysis-section"> 
+<h2>The Hardest Hit Provinces During COVID-19</h2>
+<p>While every province experienced some degree of disruption during the COVID-19 pandemic, the magnitude of the initial decline varied significantly across Canada. By comparing each province's lowest monthly retail sales value during the pandemic against its pre-pandemic average, it becomes possible to identify which regions were most severely affected by lockdowns and public health restrictions. </p>
+<div class="chart-container"> 
+<img src="img/drop.png" width="600px" alt="Provincial Retail Sales Decline">
+</div>
+</div>
+
+<div class="insight-box">
+<p>Provinces experienced dramatically different levels of retail disruption during the pandemic. Quebec and Ontario recorded some of the largest declines from their pre-pandemic averages, highlighting the severity of the economic shock during the early stages of COVID-19. Despite these setbacks, many provinces later demonstrated strong recovery and growth. </p>
+<p> While recovery rankings highlight post-pandemic growth, the hardest-hit analysis demonstrates the severity of the initial shock. Together, these perspectives provide a more complete picture of how retail performance evolved across Canada throughout the pandemic.</p>
+</div>
+
+
+<div id="province-data" class="analysis-section"> 
+<h2>Retail Performance Across Canadian Provinces</h2>
+<p>While recovery rankings illustrate relative growth, examining average retail sales across each pandemic phase provides a more comprehensive view of provincial retail performance. The table below compares average retail sales before, during, and after COVID-19 for each province, highlighting regional differences in retail activity and economic recovery. </p>
+
+
+    <div class="table-province-section">
+        <table> 
+        <thead>
+            <tr>
+                <th>Province</th>
+                <th>Before Pandemic</th>
+                <th>During Pandemic</th>
+                <th>After Pandemic</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+
+            <tr>
+                <td>Alberta</td>
+                <td>$6.81M</td>
+                <td>$7.06M</td>
+                <td class="growth-medium">7.92M</td>
+            </tr>
+
+            <tr>
+                <td>British Columbia</td>
+                <td>$7.21M</td>
+                <td>$7.80M</td>
+                <td class="growth-medium">$8.43M</td>
+            </tr>
+
+            <tr>
+                <td>Manitoba</td>
+                <td>$1.75M</td>
+                <td>$1.86M</td>
+                <td class="growth-high">$2.13M</td>
+            </tr>
+
+            <tr>
+                <td>New Brunswick</td>
+                <td>$1.11M</td>
+                <td>$1.19M</td>
+                <td class="growth-high">$1.36M</td>
+            </tr>
+
+            <tr>
+                <td>Newfoundland & Labrador</td>
+                <td>$0.75M</td>
+                <td>$0.81M</td>
+                <td class="growth-high">$0.91M</td>
+            </tr>
+
+            <tr>
+                <td>Northwest Territories</td>
+                <td>$64.96K</td>
+                <td>$73.48K</td>
+                <td>$72.04K</td>
+            </tr>
+
+            <tr>
+                <td>Nova Scotia</td>
+                <td>$1.36M</td>
+                <td>$1.44M</td>
+                <td class="growth-high">$1.65M</td>
+            </tr>
+
+            <tr>
+                <td>Nunavut</td>
+                <td>$40.41K</td>
+                <td>$46.86K</td>
+                <td class="growth-medium">$47.48K</td>
+            </tr>
+
+            <tr>
+                <td>Ontario</td>
+                <td>$19.37M</td>
+                <td>$19.52M</td>
+                <td class="growth-high">$22.66M</td>
+            </tr>
+
+            <tr>
+                <td>Prince Edward Island</td>
+                <td>$209.60K</td>
+                <td>$232.42K</td>
+                <td class="growth-high">$269.92K</td>
+            </tr>
+
+            <tr>
+                <td>Quebec</td>
+                <td>$11.06M</td>
+                <td>$11.93M</td>
+                <td class="growth-high">$13.74M</td>
+            </tr>
+
+            <tr>
+                <td>Saskatchewan</td>
+                <td>$1.66M</td>
+                <td>$1.79M</td>
+                <td class="growth-high">$2.04M</td>
+            </tr>
+
+            <tr>
+                <td>Yukon</td>
+                <td>$72.98K</td>
+                <td>$77.93K</td>
+                <td class="growth-medium">$85.50K</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</div>
+
+
+<br>
+<div class="table-country-section">
+ <table>
+
+    <thead>
+        <tr> 
+            <th> Country</th>
+            <th>Country Total Before </th>
+            <th>Country Total During </th>
+            <th>Country Total After </th>
+            </th>
+        </tr> </thead>
+
+        <tbody> 
+            <td> Canada</td>
+            <td> $51.47M</td>
+            <td> $53.83M</td>
+            <td> $61.32M</td>
+        </tbody>
+        </table>
+    </div>
+
+<p> <strong> Key Insight</strong></p>
+<p> Retail activity increased in every province following the pandemic, although the magnitude of growth varied considerably. Provinces such as Prince Edward Island, Quebec, and Saskatchewan experienced particularly strong post-pandemic expansion, while provinces such as Alberta and British Columbia demonstrated more modest gains despite maintaining large retail sectors.</p>
+</div>
+
+<div id="inflation" class="analysis-section"> 
+<h2>Inflation Trends Throughout the Pandemic </h2>
+<p>Although retail sales increased substantially following the pandemic, rising prices also played a significant role in shaping consumer spending patterns. To better understand the economic conditions surrounding retail growth, Consumer Price Index (CPI) data was analyzed for both food products and all consumer goods. This comparison helps determine whether increased retail spending reflected greater consumer demand, higher prices, or a combination of both.</p>
+<div class="chart-container"> 
+<img src="img/seeyuh.png" width="600px" alt="Inflation Trends">
+</div>
+</div>
+
+<div class="insight-box">
+<p> <strong> Key Insight</strong></p>
+<p>Inflation accelerated substantially following the COVID-19 pandemic, with food prices increasing by 13.9% compared to pre-pandemic levels. This exceeded the growth observed across all consumer goods, which increased by 11.1%. The findings suggest that essential household purchases experienced particularly strong inflationary pressure during the recovery period.</p>
+<br> 
+<p> While inflation provides important context for rising retail sales, examining inflation alone does not reveal whether retail activity truly expanded. The following analysis adjusts retail sales growth for inflation to determine the extent of Canada's real economic recovery.</p>
+</div>
+
+
+<div id="inflation-timeline" class="analysis-section">
+        <h2>Food Inflation vs Overall Inflation: 2019-2022</h2>
+        <p>While the previous analysis compared inflation across broad pandemic phases, year-over-year inflation rates reveal how price pressures evolved throughout the recovery period. Tracking food inflation alongside overall inflation highlights periods where essential goods experienced greater price increases than the broader economy. </p>
+    <div class="chart-container"> 
+        <img src="img/yuh.png" width="600px" alt="Food Inflation vs Overall Inflation">
+    </div>
+
+
+<h3> What the Graph Shows</h3>
+<p> <strong> Early Pandemic (2020)</strong></p> 
+<p>Food inflation remained positive while overall inflation briefly turned negative. For example, in May 2020 food inflation was 3.1% while overall inflation was-0.4%. </p> <br>
+<p> <strong> Recovery Period (2021)</strong></p>
+<p> Both measures began increasing, with inflation becoming more widespread across the economy. By December 2021, food inflation reached 5.2% while overall inflation reached 4.8%.</p> <br>
+<p> <strong> Post-Pandemic (Inflation Surge) (2022)</strong></p>
+<p> Inflation accelerated dramatically throughout 2022:
+    <ul> 
+        <li> Food inflation peaked at <strong>10.3%</strong> in September and November 2022.</li>
+        <li> Overall inflation peaked at <strong>8.1%</strong> in June 2022</li>
+    </ul>
+</p>
+
+    <div class="insight-box"> 
+    <p> <strong> Key Insight</strong></storong></p>
+    <p>Food inflation consistently exceeded overall inflation throughout much of the post-pandemic recovery period. By late 2022, food prices were increasing by more than 10% year-over-year, compared to approximately 6-8% for the overall Consumer Price Index. This suggests Canadian households faced particularly strong inflationary pressure on essential purchases such as groceries.</p>
+    </div>
+</div>
+
+
+<div id="real-growth" class="highlight-section"> 
+<h2> Real Growth vs Inflation: Measuring Canada's True Recovery</h2>
+<p> <strong> Purpose </strong></p>
+<p>This section serves as the primary conclusion of this project</p>
+<p> Previous analyses demonstrated that: 
+    <ol> 
+        <li> Retail Sales Increased Following the COVID-19 Pandemic</li>
+        <li> Recovery Rates Varied Considerably Across Canadian Provinces</li>
+        <li> Inflation Increased Significantly During the Pandemic Recovery Period</li>
+        <li> Food Prices Increased at a Faster Rate Than Overall Consumer Prices</li>
+    </ol>
+Taken together, these findings raise an important economic question:
+<br>
+<em>How much of Canada's post-pandemic retail
+    sales growth represents genuine
+    economic expansion, and how much can be 
+    attributed to inflation?
+</em>
+<br> 
+<br>
+To answer this question, retail sales growth is evaluated
+alongside growth in the Consumer Price Index (CPI), providing an 
+inflation-adjusted measure of Canada's retail sector's economic recovery
+</p>
+<div class="chart-container">
+<img src="img/keyfindings.png" width="600px" alt="Real Growth vs Inflation">
+</div>
+
+<div class="insight-box">
+<p> <strong> Key Insight</strong></p>
+<p>Canadian retail sales increased by <strong>19.1%</strong> after the pandemic, while consumer prices increased by <strong>11.1%</strong> over the same period. After accounting for inflation, real retail growth was approximately <strong>7.2%</strong>, indicating that a substantial portion of reported sales growth was driven by higher prices rather than increased purchasing activity. Canada's retail sector experienced genuine recovery following the pandemic, although the magnitude of growth was considerably smaller than headline sales figures suggest.</p>
+</div>
+</div>
+
+<div id="conclusion" class="conclusion-section">
+<h2> Conclusion</h2>
+<p>This project examined the impact of the COVID-19 pandemic on Canada's retail sector using retail sales and Consumer Price Index (CPI) data obtained from Statistics Canada. The analysis revealed significant short-term disruptions in retail activity, followed by strong post-pandemic recovery across most provinces.
+
+Recovery rates varied considerably throughout Canada, with some provinces experiencing substantially greater growth than others. While retail sales ultimately surpassed pre-pandemic levels, inflation also increased significantly during the recovery period, particularly within food products where price growth exceeded the overall rate of inflation.
+
+After adjusting retail sales growth for inflation, the findings indicate that Canada's retail sector experienced genuine economic recovery. However, a substantial portion of the observed increase in retail spending was attributable to rising prices rather than increased purchasing activity alone.
+
+Overall, this analysis demonstrates the importance of considering both retail sales and inflation when evaluating economic performance, providing a more complete understanding of Canada's post-pandemic recovery.</p>
+</div>
+
+<div id="summary" class="summary-section"> 
+<h2>Project Summary</h2>
+<p> 
+    <ul> 
+        <li>48 months of retail sales analyzed</li>
+        <li>13 provinces and territories evaluated</li>
+        <li>Retail sales growth of 19.1%</li>
+        <li>Inflation growth of 11.1%</li>
+        <li>Real retail growth of 7.2%</li>
+        <li>Data sourced from Statistics Cnada</li>
+    </ul>
+</p>
+</div>
+
+<br>
+
+<div id="references"> 
+<h3> References</h3>
+<p>
+    <strong> Data Source</strong> Statistics Canada <br>
+   All retail sales and Consumer Price Index (CPI) data used in this project were obtained directly from Statistics Canada. Data was cleaned, transformed, and analyzed using SQL to evaluate provincial retail performance, inflation trends, and post-pandemic recovery.
+    <br>
+    <Strong> Tools Used:</Strong> SQL, Visual Studio Code, HTML, CSS, Figma, Git, & Github
+</p>
+</div>
+
+<br> 
+<br> 
+<footer class="footer-section"> 
+    <p> Syed Omar, 2026</p>
+    <p>Statistics Canada Retail Sales Analysis</p> 
+    <p>syed.m.omar@outlook.com</p>
+    <p> Jump to <a href="#Intro">top</a></p>
+<a href="#Intro" class="back-to-top">Top</a>
+</footer>
+
+</body>
+
+
+</html>
